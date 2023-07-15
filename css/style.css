@@ -1,0 +1,209 @@
+
+body {
+  width: 100%;
+}
+
+.animate__fadeIn {
+  --animate-duration: 8s;
+}
+h1{
+  font-size: 3em;
+  text-align: center;
+  color:#fff;
+  position: relative;
+}
+
+#main{
+  width: 80%;
+
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+#absolute1{
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  z-index: 4;
+}
+
+#relative2{
+  position: relative;
+
+}
+
+#absolute2{
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  z-index: 3;
+}
+
+#relative3{
+  position: relative;
+}
+
+#absolute3{
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  z-index: 2;
+}
+
+#mannaka{
+
+  margin: 34% auto;
+  animation: rotate0 20s linear infinite;
+
+}
+
+#circle1 {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  top: 0;
+  border: 1px solid #C0C0C0;
+  border-radius: 50%;
+  position: relative;;
+}
+
+.content1 {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  left: 25%;
+  top: -25%;
+
+  transform-origin: center 150%;
+  animation: rotate1 5s linear infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content2 {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  left: 25%;
+  top: -25%;
+
+  transform-origin: center 150%;
+  animation: rotate2 10s linear infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content3 {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  left: 25%;
+  top: -25%;
+
+  transform-origin: center 150%;
+  animation: rotate3 25s linear infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content4 {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  left: 25%;
+  top: -25%;
+
+  transform-origin: center 150%;
+  animation: rotate4 25s linear infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.my-red{
+  color: #DA1725;
+}
+.my-blue{
+  color: #00acee;
+}
+.my-white{
+  color: #fff;
+}
+
+#circle2{
+  width: 350px;
+  height: 350px;
+  margin: auto;
+  top: 0;
+  border: 1px solid #C0C0C0;
+  border-radius: 50%;
+  position: relative;;
+}
+
+#circle3{
+  width: 550px;
+  height: 550px;
+  margin: auto;
+  top: 0;
+  border: 1px solid #C0C0C0;
+  border-radius: 50%;
+  position: relative;
+}
+
+#circle4{
+  width: 750px;
+  height: 750px;
+  margin: auto;
+  top: 0;
+  border: 1px solid #C0C0C0;
+  border-radius: 50%;
+  position: relative;
+}
+
+
+@keyframes rotate0 {
+  0% {
+  transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate1 {
+  0% {
+  transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate2 {
+  0% {
+  transform: rotate(80deg);
+  }
+  100% {
+    transform: rotate(440deg);
+  }
+}
+@keyframes rotate3 {
+  0% {
+  transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(630deg);
+  }
+}
+@keyframes rotate4 {
+  0% {
+  transform: rotate(30deg);
+  }
+  100% {
+    transform: rotate(390deg);
+  }
+}
